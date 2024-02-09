@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/selene
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/selene/proprietary/system_ext/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/kpoc_charger \
+    vendor/xiaomi/selene/proprietary/system_ext/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
+    vendor/xiaomi/selene/proprietary/system_ext/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
+    vendor/xiaomi/selene/proprietary/system_ext/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsysenv_system.so \
     vendor/xiaomi/selene/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/FFU_M5_11.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_M5_11.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/H9HP16AECMMDAR-KMM_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/H9HP16AECMMDAR-KMM_P08.bin \
