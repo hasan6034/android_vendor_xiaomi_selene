@@ -5,6 +5,22 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libfmjni",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libfmjni.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "xiaomi",
