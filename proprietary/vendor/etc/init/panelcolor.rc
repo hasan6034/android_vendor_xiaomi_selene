@@ -1,0 +1,11 @@
+#K19A code for HQ-124211 by qianxiaoming at 20210413 start
+service panel_color /vendor/bin/panelcolor_bin
+    class main
+    user root
+    oneshot
+    disabled
+
+on boot
+    start panel_color
+#K19A code for HQ-124211 by qianxiaoming at 20210413 end
+
