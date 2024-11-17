@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/xiaomi/selene/proprietary/system_ext/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
     vendor/xiaomi/selene/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/xiaomi/selene/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
@@ -25,10 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
+    vendor/xiaomi/selene/proprietary/system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.dmc@1.1.so \
+    vendor/xiaomi/selene/proprietary/system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.dmc@1.2.so \
+    vendor/xiaomi/selene/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/xiaomi/selene/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/selene/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
-    vendor/xiaomi/selene/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
     vendor/xiaomi/selene/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/FFU_M5_11.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_M5_11.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/H9HP16AECMMDAR-KMM_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/H9HP16AECMMDAR-KMM_P08.bin \
